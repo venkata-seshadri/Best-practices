@@ -35,7 +35,7 @@ Alternatively you can use the Spring Boot Maven plugin like so:
 ## Functionality:
 
 * Springboot-DataProcess application process csv and xml formate files using streams API since its faster and more convinient .
-* Below are the main classes of processing records and exception handlers.
+ Below are the main classes of processing records and exception handlers.
 > **FileReadController :** Method: GET , Mapping url: /processFile , Controller checks input file formate and switch to respective process methods.
 > **FileReaderServiceImpl:** handleCSV(), handleXML() are the main methods where records stream procces for collecting duplicate and unmatched records.
 > **ResponseExceptionHandler:** DuplicateReferencesException,IOException 
